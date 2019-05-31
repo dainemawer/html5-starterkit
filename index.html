@@ -1,0 +1,140 @@
+<!-- HTML5 -->
+<!doctype html>
+
+<!--
+    👨‍💻Good to note, HTML5 elements dont techniquely require the role="" attr.
+    If you're using another element in stead of HTML5 semantic elements, you need to
+    keep the role="" attr. I've inlcuded roles on semantic elements here so that you are aware.
+-->
+
+<!-- 👥 <html> tag must have a lang attribute-->
+<html class="no-js" lang="en-US">
+    <head>
+
+        <!-- 📣 Mandatory for Good SEO -->
+        <title>Schema Markup HTML 5 Boilerplate</title>
+
+        <!-- 🎫 Site Icons -->
+        <link href="/path/to/icon" rel="icon" type="image/png" />
+
+        <!-- ⚙ Device Meta-->
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+        <!-- 📋 SEO -->
+        <meta content="Description about site" name="description" />
+        <meta content="Name of author" name="author"/>
+        <meta content="index, follow" name="robots" />
+
+        <!-- 📱 PWA, updates colour of app bar on devices, generally brand priamry colour -->
+        <meta content="#fafafa" name="theme-color" />
+        <link href="site.webmanifest" rel="manifest" />
+
+        <!-- 👨‍💻👩‍💻 A plain text file that tells other humans about the humans that built your website -->
+        <link href="humans.txt" rel="author" type="text/plain"  />
+
+        <!-- 🐦 Twitter -->
+        <meta content="summary" name="twitter:card" />
+        <meta content="@twitter_handle_of_site" name="twitter:site"  />
+        <meta content="@twitter_handle_of_author" name="twitter:creator" />
+
+        <!-- 📰 Opengraph: Facebook, LinkedIn, Pinterest -->
+        <meta content="Title of site" property="og:title" />
+        <meta content="Title of site" property="og:site_name" />
+        <meta content="website" property="og:type" />
+        <meta content="URL of site" property="og:url" />
+        <meta content="Featured image of site" property="og:image" />
+        <meta content="Width of featured image" property="og:image:width" />
+        <meta content="Height of featured image" property="og:image:height" />
+        <meta content="Language of site" property="og:locale" />
+        <meta content="Description about site" property="og:description" />
+
+        <!-- 😌 Scripts added to the head should get async or defer -->
+        <script async src="/path/to/script"></script>
+        <script defer src="/path/to/script"></script>
+
+        <!-- 😌 CSS from external sites like CDN - we tell the browser to resolve DNS quickly with rel="dns-prefetch" -->
+        <link rel="dns-prefetch" href="/path/to/css" />
+
+        <!-- 😌 Grab asset and cache it, can be <img /> or <script> too -->
+        <link rel="prefetch" href="/path/to/css" />
+
+    </head>
+
+    <!-- An over-arching CSS class that can be used for namespacing -->
+    <body class="sitename" itemscope itemtype="http://schema.org/WebPage">
+
+        <!-- 🔘 Allows users to skip directly to the main content of the page using TAB -->
+        <a class="screen-reader-text" href="#mainContent">Skip to content</a>
+
+        <!-- Shows if the user has an outdated browser. Just being nice. -->
+        <!--[if IE]>
+            <p class="browser-outdated">Oh man 😱 It looks like you're using a really outdated browser.</p>
+            <p>Consider upgrading your current browser to the latest version 🙏</p>
+        <![endif]-->
+
+        <!-- Site Header -->
+        <header class="" itemscope itemtype="http://schema.org/WPHeader" role="banner">
+
+            <!-- Site Navigation -->
+            <nav aria-label="" class="" role="navigation">
+
+                <!-- UL element is marked up for better a11y -->
+                <ul aria-label="" class="" id="site-navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement" role="menubar">
+
+                    <li class="" role="none presentation">
+                        <!-- A elements get role="menuitem" -->
+                        <a class="" href="/path" role="menuitem">Link</a>
+                    </li>
+
+                    <!-- LI elements get role="none presentation" - so that they dont behave as listitem's -->
+                    <li class="" role="none presentation">
+                        <a aria-haspopup="true" aria-expanded="false" class="" href="/path" role="menuitem">Sub Menu Link</a>
+
+                        <!-- aria-label should be descriptive in terms of the context of the menu -->
+                        <ul aria-label="" class="" role="menu">
+                            <li class="" role="none presentation">
+                                <a class="" href="/path" role="menuitem">Sub Link</a>
+                            </li>
+                            <li class="" role="none presentation">
+                                <a class="" href="/path" role="menuitem">Sub Link</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <!-- 🧠 Main/Unique Content of Page -->
+        <main id="mainContent" itemprop="mainContentOfPage" role="main">
+
+            <!-- Include an H1 on every page -->
+            <h1>Page</h1>
+
+            <section role="region">
+                <h2>Heading for Section</h2>
+            </section>
+
+            <!-- 💎 If more than one aside or complementary element, then use aria-labelledby -->
+            <aside role="complementary"></aside>
+
+            <aside aria-labelledby="sidebar-widget-1" class="" role="complementary">
+                <h3 id="sidebar-widget-1">Heading for Widget 1</h3>
+            </aside>
+
+            <aside aria-labelledby="sidebar-widget-2" class="" role="complementary">
+                <h3 id="sidebar-widget-2">Heading for Widget 2</h3>
+            </aside>
+
+        </main>
+
+        <!-- 👟 Site Footer, only receives contentinfo when not a descendant of anything but the body -->
+        <footer itemscope itemtype="http://schema.org/WPFooter" role="contentinfo"></footer>
+
+        <!-- Scripts located in the footer are asynchronous by nature -->
+        <script src="/path/to/script"></script>
+    </body>
+</html>
