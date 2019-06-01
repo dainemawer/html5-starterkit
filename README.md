@@ -61,3 +61,8 @@ I've provided placholder images at the correct sizes.
 ### License
 ---
 MIT
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/dainemawer/schema-html-document/badge.svg?style=beer-square)](https://beerpay.io/dainemawer/schema-html-document)  [![Beerpay](https://beerpay.io/dainemawer/schema-html-document/make-wish.svg?style=flat-square)](https://beerpay.io/dainemawer/schema-html-document?focus=wish)
