@@ -7,7 +7,7 @@
     keep the role="" attr. I've inlcuded roles on semantic elements here so that you are aware.
 -->
 
-<!-- 👥 <html> tag must have a lang attribute-->
+<!-- 👥 <html> tag must have a lang attribute, you'll want to replace .no-js with .js -->
 <html class="no-js" lang="en-US">
     <head>
 
@@ -15,7 +15,8 @@
         <title>Schema Markup HTML 5 Boilerplate</title>
 
         <!-- 🎫 Site Icons -->
-        <link href="/path/to/icon" rel="icon" type="image/png" />
+        <link href="static/images/favicon.png" rel="shortcut icon" />
+        <link href="static/images/touch-icon.png" rel="apple-touch-icon image_src" sizes="144x144" />
 
         <!-- ⚙ Device Meta-->
         <meta charset="utf-8" />
@@ -28,41 +29,57 @@
 
         <!-- 📱 PWA, updates colour of app bar on devices, generally brand priamry colour -->
         <meta content="#fafafa" name="theme-color" />
-        <link href="site.webmanifest" rel="manifest" />
+        <link href="static/manifest.json" rel="manifest" />
 
         <!-- 👨‍💻👩‍💻 A plain text file that tells other humans about the humans that built your website -->
-        <link href="humans.txt" rel="author" type="text/plain"  />
+        <link href="static/humans.txt" rel="author" type="text/plain"  />
+
+        <!-- Language - helps Google with determine which localized content to serve a user from a different region -->
+        <link rel=”alternate” hreflang="" />
 
         <!-- 🐦 Twitter -->
+        <meta content="site title" itemprop="name" name="twitter:title" property="og:title" />
         <meta content="summary" name="twitter:card" />
+        <meta content="yourdomain.com" name="twitter:domain" />
+        <meta content="description of site" itemprop="description" name="twitter:description" property="og:description">
         <meta content="@twitter_handle_of_site" name="twitter:site"  />
         <meta content="@twitter_handle_of_author" name="twitter:creator" />
 
         <!-- 📰 Opengraph: Facebook, LinkedIn, Pinterest -->
-        <meta content="Title of site" property="og:title" />
-        <meta content="Title of site" property="og:site_name" />
+        <meta content="site title" property="og:title" />
+        <meta content="site title" property="og:site_name" />
         <meta content="website" property="og:type" />
-        <meta content="URL of site" property="og:url" />
-        <meta content="Featured image of site" property="og:image" />
-        <meta content="Width of featured image" property="og:image:width" />
-        <meta content="Height of featured image" property="og:image:height" />
-        <meta content="Language of site" property="og:locale" />
-        <meta content="Description about site" property="og:description" />
+        <meta content="site url" property="og:url" />
+        <meta content="static/images/site-share.jpg" itemprop="image primaryImageOfPage" property="og:image" />
+
+        <!-- Suggested image size for og:image -->
+        <meta content="1200" property="og:image:width" />
+        <meta content="1200" property="og:image:height" />
+
+        <meta content="en-US" property="og:locale" />
+        <meta content="site description" property="og:description" />
 
         <!-- 😌 Scripts added to the head should get async or defer -->
-        <script async src="/path/to/script"></script>
-        <script defer src="/path/to/script"></script>
+        <script async src="scripts/path-to-library"></script>
+        <script defer src="scripts/path-to-library"></script>
 
         <!-- 😌 CSS from external sites like CDN - we tell the browser to resolve DNS quickly with rel="dns-prefetch" -->
-        <link rel="dns-prefetch" href="/path/to/css" />
+        <link rel="dns-prefetch" href="css/path-to-css" />
 
-        <!-- 😌 Grab asset and cache it, can be <img /> or <script> too -->
-        <link rel="prefetch" href="/path/to/css" />
+        <!-- 😌 Grab asset and cache it, can be <img /> or <script> too
+             Using Sanitize.css here by Jonathan T Neal.
+        -->
+        <link as="style" rel="preload" href="https://unpkg.com/sanitize.css" />
+        <link as="style" rel="preload" href="https://unpkg.com/sanitize.css/typography.css" />
+        <link as="style" rel="preload" href="https://unpkg.com/sanitize.css/forms.css" />
 
     </head>
 
     <!-- An over-arching CSS class that can be used for namespacing -->
     <body class="sitename" itemscope itemtype="http://schema.org/WebPage">
+
+        <!-- If you're using React, move everything from div[id="root"] to JSX Components -->
+        <div id="root"></div>
 
         <!-- 🔘 Allows users to skip directly to the main content of the page using TAB -->
         <a class="screen-reader-text" href="#mainContent">Skip to content</a>
@@ -72,6 +89,14 @@
             <p class="browser-outdated">Oh man 😱 It looks like you're using a really outdated browser.</p>
             <p>Consider upgrading your current browser to the latest version 🙏</p>
         <![endif]-->
+
+        <!-- Rendered when JS is switched off or unavailable -->
+        <noscript>
+            <p class="no-js-message">😱 Oh no no no! You have JavaScript switched off, or your browser doesnt support it.
+                For a better user experience please consider view this website in a
+                JavaScript-enabled browser or switch JavaScript back on!
+            </p>
+        </noscript>
 
         <!-- Site Header -->
         <header class="" itemscope itemtype="http://schema.org/WPHeader" role="banner">
@@ -135,6 +160,6 @@
         <footer itemscope itemtype="http://schema.org/WPFooter" role="contentinfo"></footer>
 
         <!-- Scripts located in the footer are asynchronous by nature -->
-        <script src="/path/to/script"></script>
+        <script src="scripts/path-to-scripts"></script>
     </body>
 </html>
