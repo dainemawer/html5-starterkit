@@ -61,7 +61,3 @@ I've provided placholder images at the correct sizes.
 ### License
 ---
 MIT
-
-### Donate
----
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](hello@dainemawer.com)
