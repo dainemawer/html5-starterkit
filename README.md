@@ -1,6 +1,8 @@
 # 🔥 HTML 5 StarterKit with OpenGraph, Schema.org and Aria
 
 [![Follow Daine Mawer On Twitter](https://flat.badgen.net/twitter/follow/dainemawer)](https://twitter.com/dainemawer)
+[![Last Commits](https://flat.badgen.net/github/last-commit/dainemawer/schema-html-document)]
+[![Issues on Github](https://flat.badgen.net/github/issues/dainemawer/schema-html-document)]
 
 I can't count on my fingers the amount of times I've trawled the web looking
 for good Schema.org snippets that actually makes sense. Im hoping this template
@@ -46,4 +48,5 @@ A site manifest file provides more detail to browser that support Progressive We
 ### 📸 Site Images
 I've provided placholder images at the correct sizes.
 
-
+### License
+MIT
