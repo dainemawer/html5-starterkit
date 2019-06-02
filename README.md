@@ -38,7 +38,7 @@ Use the version in `dist` if you already know whats going on.
 
 ### 🤷‍♂️ Unopinionated
 ---
-`Santize.css` is used as an alternative to `Normalize.css`. I wanted to be as unopinionated as possible, so I've
+`santize.css` is used as an alternative to `normalize.css`. I wanted to be as unopinionated as possible, so I've
 left most of the decisions about scripts and css files, up to you. I've made provisions for simple site layout, as well as
 if you were planning on using this within a React context.
 
@@ -84,7 +84,7 @@ A site manifest file provides more detail to browser that support Progressive We
 
 ### 📸 Site Images
 ---
-I've provided placholder images at the correct sizes.
+Images have been added to the static folders, as well as template image which helps you to understand sizes.
 
 ### License
 ---
@@ -92,6 +92,6 @@ I've provided placholder images at the correct sizes.
 
 ### 🙏 Support on Beerpay
 ---
-Hey dude! Help me out for a couple of :beers:!
+I try put out tools that I wish had existed when i was just getting started, if you feel like supporting the cause, donate me some :beers:!
 
 [![Beerpay](https://beerpay.io/dainemawer/html5-starterkit/badge.svg?style=beer-square)](https://beerpay.io/dainemawer/html5-starterkit)  [![Beerpay](https://beerpay.io/dainemawer/html5-starterkit/make-wish.svg?style=flat-square)](https://beerpay.io/dainemawer/html5-starterkit?focus=wish)
