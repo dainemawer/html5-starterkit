@@ -1,9 +1,9 @@
-![HTML5 StarterKit Logo](https://i.imgur.com/cGbNKR5.png)
+![HTML5 StarterKit Logo](https://i.imgur.com/ZEv1weJ.png)
 
 # 🔥 HTML 5 StarterKit with OpenGraph, Schema.org and Aria
 [![Follow Daine Mawer On Twitter](https://flat.badgen.net/twitter/follow/dainemawer)](https://twitter.com/dainemawer)
-[![Issues on Github](https://flat.badgen.net/github/issues/dainemawer/schema-html-document)](https://github.com/dainemawer/schema-html-document/issues)
-![Last Commits](https://flat.badgen.net/github/last-commit/dainemawer/schema-html-document)
+[![Issues on Github](https://flat.badgen.net/github/issues/dainemawer/schema-html-document)](https://github.com/dainemawer/html5-starterkit/issues)
+![Last Commits](https://flat.badgen.net/github/last-commit/dainemawer/html5-starterkit)
 
 ### Motivation
 I can't count on my fingers the amount of times I've trawled the web looking
