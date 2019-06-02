@@ -1,26 +1,26 @@
 {
-    "short_name": "daine-mawer-website",
-    "name": "Daine Mawer - JavaScript Engineer",
+    "short_name": "site_short_name",
+    "name": "site_name",
     "icons": [
         {
-            "src": "/static/images/site-icon-128.png",
-            "type": "image/png",
+            "src": "/static/images/128x128.jpg",
+            "type": "image/jpeg",
             "sizes": "128x128"
         },
         {
-            "src": "/static/images/site-icon-192.png",
-            "type": "image/png",
+            "src": "/static/images/192x192.jpg",
+            "type": "image/jpeg",
             "sizes": "192x192"
         },
         {
-            "src": "/static/images/site-icon-512.png",
-            "type": "image/png",
+            "src": "/static/images/512x512.jpg",
+            "type": "image/jpeg",
             "sizes": "512x512"
         }
     ],
     "start_url": "/pwa/?source=pwa",
-    "background_color": "#302ecd",
+    "background_color": "#ffffff",
     "display": "standalone",
     "scope": "/pwa/",
-    "theme_color": "#302ecd"
+    "theme_color": "#ffffff"
 }

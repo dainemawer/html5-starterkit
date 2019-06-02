@@ -31,6 +31,9 @@ rm -rf .git
 
 4. Use the image template to get an idea of how to setup your OpenGraph and Touch Icons.
 
+5. The `src` folder contains a commented `index.html` file.
+Use the version in `dist` if you already know whats going on.
+
 5. Have fun!
 
 ### 🤷‍♂️ Unopinionated

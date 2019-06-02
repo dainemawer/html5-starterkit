@@ -1,8 +1,3 @@
-/**
- * Screen Reader Text as described on
- * https://make.wordpress.org/accessibility/handbook/markup/the-css-class-screen-reader-text/
-*/
-
 .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);

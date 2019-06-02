@@ -1,0 +1,15 @@
+/* TEAM */
+Role: Front-end Engineer
+Name: Daine Mawer
+Contact: https://dainemawer.com/contact
+Twitter: @dainemawer
+Geolocation: London, United Kingdom
+
+/* THANKS */
+Name/Company: Company Name
+
+/* SITE */
+Last update: 2019/06/02
+Standards: HTML 5, CSS 3, ES6
+Components: Google Analytics, Snap.svg
+Software: VSCode, Git, iTerm2
