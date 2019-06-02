@@ -1,12 +1,37 @@
-# 🔥 HTML 5 StarterKit with OpenGraph, Schema.org and Aria
+[HTML5 StarterKit Logo](https://i.imgur.com/cGbNKR5.png)
 
+# 🔥 HTML 5 StarterKit with OpenGraph, Schema.org and Aria
 [![Follow Daine Mawer On Twitter](https://flat.badgen.net/twitter/follow/dainemawer)](https://twitter.com/dainemawer)
 [![Issues on Github](https://flat.badgen.net/github/issues/dainemawer/schema-html-document)](https://github.com/dainemawer/schema-html-document/issues)
 ![Last Commits](https://flat.badgen.net/github/last-commit/dainemawer/schema-html-document)
 
+### Motivation
 I can't count on my fingers the amount of times I've trawled the web looking
 for good Schema.org snippets that actually makes sense. Im hoping this template
 will save time for everyone out there looking to get a solid start to a new project.
+
+### Usage
+
+1. Clone the repository or download the the latest release.
+
+```
+git clone https://github.com/dainemawer/schema-html-document.git your-project
+```
+
+2. Update values
+Theres a lot that needs updating to match your own values, be thorough about this.
+I've tried to keep them as generic as possible so you can do easy search/replace. I'll more than likely
+add a CLI tool to this package in the next release to help with this.
+
+3. Remove the `.git` file.
+
+```
+rm -rf .git
+```
+
+4. Use the image template to get an idea of how to setup your OpenGraph and Touch Icons.
+
+5. Have fun!
 
 ### 🤷‍♂️ Unopinionated
 ---

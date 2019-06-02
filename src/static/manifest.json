@@ -1,0 +1,26 @@
+{
+    "short_name": "site_name",
+    "name": "Site Name",
+    "icons": [
+        {
+            "src": "/static/images/site-icon-128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/static/images/site-icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/static/images/site-icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/pwa/?source=pwa",
+    "background_color": "#302ecd",
+    "display": "standalone",
+    "scope": "/pwa/",
+    "theme_color": "#302ecd"
+}
