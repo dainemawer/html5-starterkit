@@ -1,4 +1,4 @@
-[![HTML5 StarterKit Logo]](https://i.imgur.com/cGbNKR5.png)
+![HTML5 StarterKit Logo](https://i.imgur.com/cGbNKR5.png)
 
 # 🔥 HTML 5 StarterKit with OpenGraph, Schema.org and Aria
 [![Follow Daine Mawer On Twitter](https://flat.badgen.net/twitter/follow/dainemawer)](https://twitter.com/dainemawer)
