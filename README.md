@@ -85,7 +85,7 @@ I've provided placholder images at the correct sizes.
 
 ### License
 ---
-MIT
+[MIT](https://github.com/dainemawer/html5-starterkit/blob/master/LICENSE)
 
 ### 🙏 Support on Beerpay
 ---
